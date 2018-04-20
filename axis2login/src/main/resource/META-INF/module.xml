@@ -1,0 +1,7 @@
+<module name="axis2login" class="com.csscis.axis2login.LoginModule">
+    <InFlow>
+        <handler name="InFlowLogHandler" class="com.csscis.axis2login.LoginHandler">
+            <order phase="axis2loginPhase"/>
+        </handler>
+    </InFlow>
+</module>
